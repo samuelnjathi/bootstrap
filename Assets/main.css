@@ -1,0 +1,70 @@
+
+img.background {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  filter: brightness(50%);
+}
+li a{
+    color: white;
+    margin-top: 20px;
+    text-align: end;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+li a:hover{
+  color: rgb(128, 228, 34);
+
+}
+li a.active{
+  color: rgb(128, 228, 34);
+}
+.nav-brand{
+    color:white;
+}
+.nav-brand:hover{
+    color: rgb(128, 228, 34);
+}
+.title{
+  text-align: center;
+  color: rgb(128, 228, 34);
+  font-size: 50px;
+  font-family: krona One;
+
+    
+
+}
+img.avatar{
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  max-width: 60%;
+
+}
+.checked {
+  color: gold;
+  text-align: center;
+}
+.unchecked{
+  color: white;
+}
+.name{
+  text-align: center;
+  font-family: krona one;
+  color: white;
+  font-size: 30px;
+}
+.description{
+  font-size: 20px;
+  font-family: krona one;
+  color: white;
+
+}
+.btn btn-success{
+  padding: 14px 40px;
+}
